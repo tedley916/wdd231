@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <title>WDD 231 Project</title>
+  <meta charset="utf-8" />
+  <meta property="og:title" content="Personal Website" />
+  <meta property="og:description" content="This is a website containing my personal details" />
+  <meta property="og:author" content="Ted Standley" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="my information">
+  <title>My personal website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/small.css" />
+  <script src="scripts/app.js" defer></script>
+  <script src="scripts/modals.js" defer></script>
+  <script type="module" src="./scripts/lodging.js" defer></script>
+
+</head>
+
+
+<body class="pagecolor">
+  <header>
+    <span>
+      <img src="images/me-min.png" alt="Me!" height="10%" width="5%">
+      <h3>&nbsp;Ted Standley</h3>
+    </span>
+  </header>
+  <a id="userInfoMenu" href="#"></a>
+  <nav>
+    <ul class="navigation">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Chamber</a></li>
+      <li><a href="#">Final&nbsp;Project</a></li>
+      <li><a href="https://www.linkedin.com/in/ted-standley-29614bb">LinkedIn</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="grid-container">
+      <section>
+
+        <div class="item1 item-border">
+          <ul class="no-bullets">
+            <li><strong>Course work</strong></li>
+            <li>WDDx 130</li>
+            <li>WDD 131</li>
+            <li>WDD 231</li>
+          </ul>
+        </div>
+
+
+        <div class="item2 item-border">
+          <ul class="no-bullets amenities">
+            <li><strong>Ammenities</strong></li>
+            <li><a id="cards">Lodging</a></li>
+            <li>Restaurants</li>
+            <li>Entertainment</li>
+          </ul>
+        </div>
+
+        <div class="centered item3 item-border">
+          <h5>Auburn, California</h5>
+          <img class="img-size" src="images/auburn.jpeg" alt="Me!" height="70%" width="45%">
+        </div>
+      </section>
+    </div>
+
+    <section>
+      <div class="item4 item-border">
+        <ul class="no-bullets">
+          <li><strong>Nearby Locations of Note</strong></li>
+          <li><button id="openTahoeButton">Lake Tahoe</button></li>
+          <li><button id="openRenoButton">Reno</button></li>
+          <li><button id="openSanFranButton">San Fransisco</button></li>
+        </ul>
+      </div>
+    </section>
+
+
+    <dialog id="dialogBox">
+      <img id="nearbyImage" class="center-image" height="60%" width="35%">
+      <div></div> <!-- for the image -->
+      <button class="center-image" id="closeButton">close</button>
+    </dialog>
+
+    <dialog id="dialogBoxLodging">
+      <div>Lodging data goes here</div>
+      <button class="center-image" id="closeButton">close</button>
+    </dialog>
+
+    <footer>
+      <span class="footer">
+        <h4>Author: Ted Standley&nbsp;&#169;<h4 id="year"></h4>&nbsp;My Company</h4>
+      </span>
+    </footer>
+  </main>
+</body>
+
+</html>
