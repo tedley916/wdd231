@@ -18,8 +18,6 @@ openRenoButton.addEventListener("click", () => {
     nearbyImage.setAttribute("src", "images/reno.png");
 });
 
-
-
 openSanFranButton.addEventListener("click", () => {
     dialogBox.showModal();
     dialogBoxText.innerHTML = "Welcome to San Fransisco!";
