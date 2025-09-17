@@ -1,0 +1,392 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+span {
+	background-color: rgb(247, 159, 8);
+	display: flex;
+	box-shadow: 0px 2px 5px 2px rgba(50, 48, 48, 0.4);
+	min-width: 100%;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+
+.grid {
+	display: inline-flex;
+}
+
+h1,
+h2 {
+	font-weight: 3;
+	margin-block: 0.67em;
+	font-size: 2em;
+}
+
+h3 {
+	margin-top: .05em;
+	display: flex;
+}
+
+span,
+h {
+	color: rgb(0, 13, 255);
+}
+
+h4 {
+	display: flex;
+	margin-left: .055em;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Sansita", sans-serif;
+}
+
+/* mobile **************************/
+header {
+	background-color: #afbecc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
+	max-width: 95%;
+	border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+header,
+main {
+	margin: 0 auto;
+}
+
+button {
+	color: rgb(216, 221, 243);
+	background-color: rgb(0, 13, 255);
+	margin-left: 0.1rem;
+	width: 12rem
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+nav {
+	background-color: #485862;
+	padding: 0;
+	margin-top: 1cap;
+}
+
+nav ul {
+	list-style-type: none;
+	display: grid;
+	text-align: center;
+	/* padding: 0.05rem; 
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.4);
+	*/
+	text-decoration: none;
+	color: rgb(60, 7, 233);
+	min-width: 96%;
+}
+
+nav a {
+	display: grid;
+	color: rgb(232, 227, 248);
+	text-align: center;
+	padding: 0.1rem;
+	padding-right: rem;
+	text-decoration: none;
+	color: rgb(0, 13, 255);
+	flex: 1 1 100%;
+}
+
+.img-size {
+	max-width: 90px;
+	max-height: 50px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.item-border {
+	padding: 0.05rem;
+	margin: 0.1rem;
+	max-height: 111px;
+	background-color: rgb(247, 159, 8);
+}
+
+.no-bullets {
+	list-style-type: none;
+	/* Remove bullets */
+	padding: 0;
+	/* Remove padding */
+	margin: 0;
+	/* Remove margins */
+}
+
+section,
+h2 {
+	display: grid;
+	font-size: medium;
+}
+
+section {
+	color: rgb(60, 7, 233);
+	max-width: 96%;
+	padding: 0rem;
+
+}
+
+/*footer*/
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+/*Normalize html and body elements,this style is just good to have*/
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 35px;
+	background: #ccc;
+}
+
+ul,
+li,
+a {
+	display: flexbox;
+	width: 100%;
+	align-items: center;
+	justify-items: center;
+	padding: 0%;
+	margin: 0%;
+	background-color: rgb(247, 159, 8);
+}
+
+.pagecolor {
+	background-color: rgb(216, 221, 243);
+}
+
+.grid-container {
+	display: grid;
+	background-color: rgb(216, 221, 243);
+	margin: 0.0rem;
+	margin-left: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 0rem;
+	margin-right: 0.1rem;
+	border-bottom: 0.2rem;
+	/*
+	list-style: none;
+	max-width: 95%;
+	*/
+}
+
+.card {
+	border: #eee;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #aaa;
+	margin: .5rem 10px;
+	overflow: hidden;
+}
+
+p {
+	margin: 1rem;
+	border: 1px solid rgba(64, 21, 21, 0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+}
+
+/* Mobile View ***************/
+#userInfoMenu {
+	display: block;
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.5rem 0.75rem;
+	padding-bottom: 0rem;
+	background-color: #eee;
+	color: rgb(247, 159, 8);
+	background-color: rgb(216, 221, 243)
+}
+
+
+nav {
+	background-color: rgb(216, 221, 243);
+}
+
+.amenities {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 95%;
+	border-bottom: 0.2rem;
+
+}
+
+.amenities a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 95%;
+	border-bottom: 0.2rem;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: flex;
+	padding: 0.75rem;
+	padding-bottom: 1rem;
+	height: 2.5rem;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(0, 13, 255);
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover,
+navigation a:active {
+	color: rgb(216, 221, 243);
+	background-color: rgb(0, 13, 255);
+}
+
+.amenities a:hover,
+.amenities a:active {
+	color: rgb(216, 221, 243);
+	background-color: rgb(0, 13, 255);
+	text-decoration: none;
+}
+
+.centered {
+	align-items: center;
+}
+
+.show li {
+	display: block;
+}
+
+
+#userInfoMenu::before {
+	font-size: x-large;
+	content: "☰";
+}
+
+#userInfoMenu.show::before {
+	font-size: large;
+	content: "X";
+}
+
+/* Media Query for wider than mobile viewports. Breakpoint should be based upon the design and content and use em units to be relative to the user's font size versus fixed with pixels.  
+
+In most WDD courses there is a requirement to use a separate file. This part would go into a separate CSS file. 
+*/
+
+
+@media only screen and (max-width: 600px) {
+	.item1 {
+		grid-area: 1 / span 6;
+	}
+
+	.item2 {
+		grid-area: 2 / span 6;
+	}
+
+	.item3 {
+		grid-area: 3 / span 6;
+	}
+
+}
+
+.item4 {
+	grid-area: 1 / span 6;
+	margin-left: 1em;
+	max-width: 12.4rem;
+}
+
+@media only screen and (min-width: 600px) {
+	.item1 {
+		grid-area: 1 / span 6;
+	}
+
+	.item2 {
+		grid-area: 2 / span 3;
+	}
+
+	.item3 {
+		grid-area: 2 / span 3;
+	}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+	.item1 {
+		grid-area: 1 / span 2;
+	}
+
+	.item2 {
+		grid-area: 1 / span 2;
+	}
+
+	.item3 {
+		grid-area: 1 / span 2;
+	}
+}
+
+
+@media only screen and (min-width: 40em) {
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block;
+		/* change state in small view */
+		flex: 1 1 100%;
+	}
+
+	.navigation a {
+		text-align: center;
+	}
+
+	#menu {
+		display: none;
+	}
+}
+
+::backdrop {
+	background-color: rgba(125, 125, 125, 0.7);
+}
+
+.center-image {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}

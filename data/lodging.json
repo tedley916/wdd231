@@ -1,0 +1,28 @@
+{
+    "lodgings": [
+        {
+            "name": "Roadway Inn",
+            "address": "13490 Lincoln Way",
+            "city": "Auburn",
+            "state": "CA",
+            "zip": "95602",
+            "rating": "3.5"
+        },
+        {
+            "name": "Foothills Motel",
+            "address": "13431 Bowman Rd",
+            "city": "Auburn",
+            "state": "CA",
+            "zip": "95603",
+            "rating": "5.0"
+        },
+        {
+            "name": "Springhill Suites",
+            "address": "13535 Bowman Rd",
+            "city": "Auburn",
+            "state": "CA",
+            "zip": "95603",
+            "rating": "4.0"
+        }
+    ]
+}
